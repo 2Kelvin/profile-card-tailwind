@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body class="h-screen grid place-content-center bg-cover bg-center bg-no-repeat"
+    style="background-image: url(/images/bg-pattern-card.svg);">
+    <section class="shadow-lg bg-slate-100 rounded-xl w-64 h-fit mb-2">
+        <!-- div profile & background -->
+        <div class="grid place-content-center bg-cover px-6 pb-2 pt-8">
+            <img src="/images/image-victor.jpg" alt="Victor"
+                class="rounded-full border-2 bg-slate-100 mb-1 cursor-pointer">
+            <div class="flex my-1 items-center">
+                <h3 class="font-bold mr-2 text-sm">Victor Crest</h3>
+                <h6 class="text-zinc-500 text-sm">26</h6>
+            </div>
+            <p class="text-zinc-500 text-center text-xs">London</p>
+        </div>
+
+        <hr class="my-2">
+
+        <!-- div stats -->
+        <div class="flex w-full px-1 justify-around pb-1">
+            <div class="p-2 text-center">
+                <h2 class="font-bold text-lg">80K</h2>
+                <p class="text-zinc-500 text-xs">Followers</p>
+            </div>
+            <div class="p-2 text-center">
+                <h2 class="font-bold">803K</h2>
+                <p class="text-zinc-500 text-xs">Likes</p>
+            </div>
+            <div class="p-2 text-center">
+                <h2 class="font-bold">1.4K</h2>
+                <p class="text-zinc-500 text-xs">Photos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- citation -->
+    <p class="text-xs text-center text-white">Challenge from <span
+            class="text-fuchsia-500 decoration-fuchsia-500 visited:text-fuchsia-200 cursor-pointer">Frontend
+            Mentor</span></p>
+</body>
+
+</html>
